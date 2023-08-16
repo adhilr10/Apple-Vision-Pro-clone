@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+.container{
+    background-color: #000;
+}
+header{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: #000;
+}
+nav{
+    width: 65%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 18px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: #fff !important;
+}
+.navbar span{
+    margin-left: 33px;
+    color: #ffffffcc;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    cursor: pointer;;
+}
+.navbar i{
+    margin-left: 33px;
+    font-size: 18px;
+    cursor:  pointer;
+
+}
+span:hover{
+    color: #fff;
+}
+.vision{
+    
+    width: 64%;
+    margin-top: 20px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 280px;
+
+}
+.vision a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.14286;
+}
+.vision button{
+    background: #f5f5f7;
+    color: #000;
+    border-color: rgba(0,0,0,0);
+    border-radius: 980px;
+    font-weight: 400;
+ font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ cursor: pointer;
+}
+.video1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video1 video{
+    width: 60%;
+    height: 100%;
+
+}
+.video2{
+    width: 100%;
+    height: 90vh;
+}
+.video2 video{
+    border-radius: 15px;
+    object-fit: fill;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.footer{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+.footer-img{
+   width: 462px;
+   height: 76px;
+}
+.child-footer {
+    margin-top: 40px;
+    
+}
+.child-footer a{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ff5a00;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.child-footer a:hover{
+    text-decoration: underline;
+}
+.av-us{
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #86868b;
+    margin-top: 20px;
+    
+}
+.visionpro {
+    margin-top: 20px;
+}
+.takebtn{
+    --button-padding: 15px 37px 15px 27px;
+    padding: var(--button-padding);
+    color: #1d1d1f;
+    background-color: initial;
+    border: 3px solid #1d1d1f;
+    transition-property: background-color,color;
+    transition-duration: var(--button-transition-duration);
+    transition-timing-function: ease-in-out;
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 980px;
+    cursor: pointer;
+
+}
+.takebtn:hover{
+    color: #fff;
+    background-color: #1d1d1f;
+}
+
+.contact {
+    background: #fff;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.16);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social ul li {
+    
+display: inline-block;  
+    
+}
+.social ul li a {
+    color: #999;
+    text-align: center;
+    
+}
+.social ul li a span{
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: #1d1d1f;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social ul li a i:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #fff;
+}
+.copyright p,.copyright p a{
+    color: #999;
+    font-size: 15px;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 28px;
+    float: right;
+}
+.copyright a:hover {
+    color: #ff5a00;
+}
